@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shortcutPageDev">
+
+    <Button
+        android:id="@+id/berandaDev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="beranda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/selectStudioDev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Studio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/berandaDev" />
+
+    <Button
+        android:id="@+id/detilTiker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Tiket"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectStudioDev" />
+
+
+    <Button
+        android:id="@+id/historySelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detilTiker" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/historySelected" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

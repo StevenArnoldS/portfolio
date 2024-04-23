@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="buttonGreen">#2891a3</color>
+    <color name="BackgroundFragment">#E3E5E7</color>
+    <color name="greenCircle">#2891a3</color>
+    <color name="darkGreen">#053740</color>
+    <color name="surabaya">#FF5722</color>
+    <color name="registrationEtix">#FDF8F8</color>
+    <color name="greenSeat">#4cb050</color>
+    <color name="yellowSeat">#f5cd07</color>
+    <color name="redSeat">#e82305</color>
+    <color name="light_grey">#505253</color>
+    <color name="profile_grey">#CFD1D3</color>
+</resources>
