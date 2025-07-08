@@ -1,0 +1,173 @@
+.montserrat-semiBold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F4F7;
+}
+
+.wrapper {
+    display: flex;
+}
+
+#sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    background: #091930;
+    color: white;
+    transition: all 0.3s;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar img {
+	display: block;
+	margin-left: 40px;
+	width: 200px;
+	height: auto;
+	padding-top: 20px;
+}
+
+#listNav {
+    margin-top: 8vh;
+}
+
+#listNav li a,
+#myticket li a {
+    text-decoration: none !important;
+    font-size: 1.25rem !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 10px 0 10px 40px !important;
+    transition: all 0.3s !important;
+}
+
+
+a i {
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: #2c3e50;
+    border-left: 4px solid #3498db;
+}
+
+#myticket::after {
+    margin-left: 6vw;
+    transition: transform 0.3s ease;
+}
+
+#myticket[aria-expanded="true"]::after {
+    transform: rotate(180deg);
+}
+
+#homeSubmenu li a {
+    margin-left: 70px;
+    font-size: 1rem;
+}
+
+#ticket {
+    width: 180px;
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#ticket img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: auto;
+}
+
+#container-ticket {
+    background: white;
+    width: 340px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+#sidebarCollapse {
+    margin: 1vh 0 0 2vw;
+    background: #091930;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#isi {
+    transform: translateY(10%);
+}
+
+#head-container {
+    padding: 0;
+    gap: 50px;
+}
+
+.chart-container {
+    gap: 7.75vw;
+    padding: 0;
+}
+
+.chart {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 500px;
+    padding: 2rem 3rem;
+}
+
+#myChart,
+#myChart2 {
+    margin-top: 1.5rem;
+    width: 350px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* #sidebarCollapse:hover {
+    background: #2c3e50;
+} */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -300px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    #sidebarCollapse {
+        display: none;
+    }
+}
